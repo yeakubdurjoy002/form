@@ -80,3 +80,26 @@ button:hover:after {
   opacity: 1;
   right: 10px;
 }
+
+@media only screen and (max-width: 414px) {
+  body {
+    font-size: 10px;
+  }
+  container {
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background-color: #ccc;
+    padding-right: 40px;
+  }
+  button {
+    width: 80px;
+    background-color: cyan;
+    font-size: 10px;
+  }
+  input,
+  textarea {
+    width: 50%;
+  }
+}
